@@ -1,0 +1,15 @@
+section
+{
+    display: flex;
+    overflow-y: hidden ;
+    overflow-x: auto;
+}
+section::-webkit-scrollbar
+{
+    display: none;
+}
+section img
+{
+    width: 20%;
+    object-fit: contain;
+}
